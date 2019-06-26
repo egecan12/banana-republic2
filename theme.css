@@ -1,0 +1,69 @@
+.img{
+
+    position: fixed;
+    bottom: 800px;
+}
+
+.img2{
+
+    position: fixed;
+    left:250px;
+    bottom: 800px;
+
+}
+
+.img3{
+
+    position: fixed;
+    left:400px;
+    bottom: 800px;
+}
+.img4{
+
+    position: fixed;
+    left:500px;
+    bottom: 800px;}
+.img5{
+
+    position: fixed;
+    left:700px;
+    top: 800px;
+}
+.img6{
+
+    position: fixed;
+    left:800px;
+    bottom: 800px;
+}
+.img7{
+
+    position: fixed;
+    left:900px;
+    bottom: 800px;
+}
+
+.img8{
+
+    position: fixed;
+    left:1100px;
+    bottom: 800px;
+}
+
+
+
+
+
+
+
+
+body{
+    font-family: Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1497473376897-16fbb7552478?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+}
+
+
+h1, p {
+
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
