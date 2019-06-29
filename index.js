@@ -6,6 +6,11 @@ var img5 = document.querySelector(".img5");
 var img6 = document.querySelector(".img6");
 var img7 = document.querySelector(".img7");
 var img8 = document.querySelector(".img8");
+var img9 = document.querySelector(".pati");
+var img10 = document.querySelector(".pati2");
+
+
+
 
 const tl = new TimelineMax({})
 
@@ -13,7 +18,7 @@ TweenMax.to(img, 3, {
 
     y: 1000,
     rotation: 322,
-    repeat:100,
+    repeat: 100,
 
 
 });
@@ -25,10 +30,10 @@ TweenMax.to(img2, 2, {
     y: 800,
     rotation: 42,
     ease: SlowMo.ease.config(0.2, 0.2, false),
-    repeat:100
-    
+    repeat: 100
+
 });
- 
+
 
 
 
@@ -90,3 +95,26 @@ TweenMax.to(img8, 2, {
 
 
 });
+
+
+document.getElementById("click").addEventListener("click", myFunction);
+
+function myFunction() {
+
+    
+    TweenMax.from(img9, 1, {
+      
+        ease: Power3.easeOut,
+        y: 500,
+        rotation: 15
+
+    });
+
+    TweenMax.from(img10, 1, {
+      
+        ease: Power3.easeOut,
+        y: 500,
+        rotation: 35
+
+    });
+}
