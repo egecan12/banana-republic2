@@ -1,3 +1,7 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
 .img {
 
     position: fixed;
@@ -84,7 +88,7 @@ p {
     position: absolute;
     left: 400px;
     transform: rotate(345deg);
-    scale:0.5 
+
 
 }
 
@@ -123,3 +127,4 @@ p {
     position: relative;
     top: 1px;
 }
+
